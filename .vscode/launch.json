@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "Chrome",
+            "request": "launch",
+            "program": "${workspaceRoot}/applications/starbase/src/main.js",
+            "cwd": "${workspaceRoot}",
+            "outFiles": ["${workspaceRoot}/**/*.vue"],
+            "url": "http://localhost:8080",
+            "sourceMaps": true
+        }
+    ]
+}
